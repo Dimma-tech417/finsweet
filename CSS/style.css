@@ -29,7 +29,7 @@
 }
 .navigation a {
     text-decoration: none;
-    color: rgb(20, 11, 11);
+    color: rgb(15, 1, 1);
     
 }
 
@@ -39,4 +39,26 @@
 
 .text {
     padding-inline: 10px;
+}
+
+/* .hero-section,
+.hero-area {
+    width: 100%;
+} */
+
+.hero-area {
+    display: flex;
+}
+.hero-area h1 {
+    font-size: 70px;
+}
+.text-area {
+    max-width: 45%;
+}
+.image-area {
+    max-width: 55%;
+}
+.image-area img {
+    width: 100%;
+    height: 500px;
 }
