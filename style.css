@@ -110,18 +110,14 @@ small {
     align-items: start;
     
 }
-.quote-area ul li img {
-    /* width: 25%; */
-}
+
 .form-area div {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
 }
-.list-area {
-    /* width: 50%; */
-}
+
 .list-area h2 {
     padding: 0;
     margin: 0;
