@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 
@@ -48,6 +49,8 @@
 
 .hero-area {
     display: flex;
+    justify-content: ;
+
 }
 .hero-area h1 {
     font-size: 70px;
@@ -61,4 +64,73 @@
 .image-area img {
     width: 100%;
     height: 500px;
+}
+
+button {
+    background-color: orangered;
+    padding: 15px 15px;
+    border: 1px solid orangered;
+    margin-block: 50px;
+    font-size: 20px;
+    color: beige;
+    border-radius: 10px;
+    }
+
+small {
+    color: rgb(98, 104, 110);
+    
+}
+.time-section {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px;
+    align-items: center;
+}
+
+.time-section img {
+    width: 7%;
+}
+
+#quote-section {
+    list-style: none;
+
+}
+.quote-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(111, 37, 37);
+    background-image: url(https://cdn.pixabay.com/photo/2023/06/01/05/59/pattern-8032716_1280.jpg);
+    color: bisque;
+}
+.quote-area ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.quote-area ul li img {
+    /* width: 25%; */
+}
+.form-area div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.list-area {
+    /* width: 50%; */
+}
+.list-area h2 {
+    padding: 0;
+    margin: 0;
+}
+.form-area {
+    width: 50%;
+}
+.form-area  .input-box {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
